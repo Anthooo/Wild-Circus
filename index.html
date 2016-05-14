@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+    	<meta charset="utf-8" />
+    	<title>Wild Circus</title>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+
+		<header>
+   			<nav id='cssmenu'>
+				<div id="head-mobile"></div>
+				<div class="button"></div>
+					<ul>
+						<li class='active'><a href='#'>HOME</a></li>
+						<li><a href='#buy'>RESERVATION</a></li>
+						<li><a href='#'>GALLERY</a></li>
+						<li><a href='#contact'>CONTACT</a></li>
+            <div id="contact" class="contactform">
+              <form class="dateshow" method="post">
+                  <a href="#close" title="Close" class="close">X</a>
+                    <h1>Contact us</h1><br>
+                    <label>Full Name<span class="required">*</span> :</label>
+                    <p><input type="text" name="field1" class="name" placeholder="Your name" /></p>
+                    <label>Email<span class="required">*</span> :</label>
+                    <p><input type="email" class="email" placeholder="Your Email" /></p>
+                    <label>Your message :</label>
+                    <p><textarea name="text" id="msg" placeholder="Your message"></textarea></p>
+                    <input class="btn" type="submit" name="Submit" value="Submit">
+                  </form>
+              </div>
+					</ul>
+			</nav>
+		</header>
+
+		<section>
+      <div class="logo"><a href="index.html">WILD CIRCUS</a></div>
+
+      <div class="featshow">
+  			<h1>FEATURED SHOWS</h1>
+  			<div class="row">
+      			<div class="ih-item circle effect"><a href="#">
+          			<div class="img"><img src="/images/clown.jpg" alt="img"></div>
+          				<div class="info">
+            					<div class="info-back">
+              					<h3>Clowns</h3>
+              					<p>Inspired by Chaplin's movies, the clowns propose numbers mixing humour and nostalgia, giggles and melancholy. Their gestual and their costumes guarantee one moment full with poetry to you.</p>
+            					</div>
+          				</div>
+          		</a></div>
+          		<div class="ih-item circle effect"><a href="#">
+          			<div class="img"><img src="/images/jongleurs.jpg" alt="img"></div>
+          				<div class="info">
+            					<div class="info-back">
+              					<h3>Fire Jugglers</h3>
+              					<p>Under your dazzled eyes our artists make dance their ranges, their bolas and their twin wheels, drawing for you in the shade of the capital of the oneiric constellations.</p>
+            					</div>
+                  		</div>
+                  </a></div>
+            		<div class="ih-item circle effect"><a href="#">
+          			<div class="img"><img src="/images/acrobate.jpg" alt="img"></div>
+         					<div class="info">
+            					<div class="info-back">
+              					<h3>Acrobats</h3>
+              					<p>Imagine the man of Vitruve of Léonard of vinci put moving and you will have an idea from what awaits you at the time as of lifting performances of our artists. Defying the centrifugal force our acrobats will offer a dance to you which you will remember a long time.</p>
+            					</div>
+          				</div>
+          		</a></div>
+  			</div> 
+      </div>
+
+			<div class="nextevent">
+				<h1>NEXT SHOWS</h1>
+					<div class="nextshows">
+						<div class="dateshow">
+							<p class="city">NEW YORK</p>
+							<p class="date">18.09.2016</p>
+							<a class="btn" href="#buy">Buy Tickets</a>
+              <div id="buy" class="buytickets">
+                <form class="dateshow" method="post">
+                  <a href="#close" title="Close" class="close">X</a>
+                    <h1>Buy tickets</h1><br>
+                    <label>Full Name<span class="required">*</span> :</label>
+                    <p><input type="text" name="field1" class="name" placeholder="Your name" /></p>
+                    <label>Email<span class="required">*</span> :</label>
+                    <p><input type="email" class="email" placeholder="Your Email" /></p>
+                    <label>Date : </label>
+                    <p><select id="date">
+                        <option value="New York - 18/09/2016" selected>New York - 18/09/2016</option>
+                        <option value="Las Vegas - 12/10/2016">Las Vegas - 12/10/2016</option>
+                        <option value="Paris - 05/12/2016">Paris - 05/12/2016</option>
+                        <option value="London - 16/01/2017">London - 16/01/2017</option>
+                    </select></p>
+                    <label>Number of tickets :</label>
+                    <p><input type="number" placeholder="How much?" step="1" value="1" min="1" max="10"></p>
+                    <input class="btn" type="submit" name="Submit" value="Submit">
+                  </form>
+						  </div>
+            </div>
+						<div class="dateshow">
+							<p class="city">LAS VEGAS</p>
+							<p class="date">12.10.2016</p>
+              <a class="btn" href="#buy">Buy Tickets</a>
+              <div id="buy" class="buytickets">
+                <<form class="dateshow" method="post">
+                  <a href="#close" title="Close" class="close">X</a>
+                    <h1>Buy tickets</h1><br>
+                    <label>Full Name<span class="required">*</span> :</label>
+                    <p><input type="text" name="field1" class="name" placeholder="Your name" /></p>
+                    <label>Email<span class="required">*</span> :</label>
+                    <p><input type="email" class="email" placeholder="Your Email" /></p>
+                    <label>Date : </label>
+                    <p><select id="date">
+                        <option value="New York - 18/09/2016" selected>New York - 18/09/2016</option>
+                        <option value="Las Vegas - 12/10/2016">Las Vegas - 12/10/2016</option>
+                        <option value="Paris - 05/12/2016">Paris - 05/12/2016</option>
+                        <option value="London - 16/01/2017">London - 16/01/2017</option>
+                    </select></p>
+                    <label>Number of tickets :</label>
+                    <p><input type="number" placeholder="How much?" step="1" value="1" min="1" max="10"></p>
+                    <input class="btn" type="submit" name="Submit" value="Submit">
+                  </form>
+              </div>
+						</div>
+						<div class="dateshow">
+							<p class="city">PARIS</p>
+							<p class="date">05.12.2016</p>
+              <a class="btn" href="#buy">Buy Tickets</a>
+              <div id="buy" class="buytickets">
+                <form class="dateshow" method="post">
+                  <a href="#close" title="Close" class="close">X</a>
+                    <h1>Buy tickets</h1><br>
+                    <label>Full Name<span class="required">*</span> :</label>
+                    <p><input type="text" name="field1" class="name" placeholder="Your name" /></p>
+                    <label>Email<span class="required">*</span> :</label>
+                    <p><input type="email" class="email" placeholder="Your Email" /></p>
+                    <label>Date : </label>
+                    <p><select id="date">
+                        <option value="New York - 18/09/2016" selected>New York - 18/09/2016</option>
+                        <option value="Las Vegas - 12/10/2016">Las Vegas - 12/10/2016</option>
+                        <option value="Paris - 05/12/2016">Paris - 05/12/2016</option>
+                        <option value="London - 16/01/2017">London - 16/01/2017</option>
+                    </select></p>
+                    <label>Number of tickets :</label>
+                    <p><input type="number" placeholder="How much?" step="1" value="1" min="1" max="10"></p>
+                    <input class="btn" type="submit" name="Submit" value="Submit">
+                  </form>
+						</div>
+            </div>
+            <div class="dateshow">
+              <p class="city">LONDON</p>
+              <p class="date">16.01.2017</p>
+              <a class="btn" href="#buy">Buy Tickets</a>
+              <div id="buy" class="buytickets">
+                <form class="dateshow" method="post">
+                  <a href="#close" title="Close" class="close">X</a>
+                    <h1>Buy tickets</h1><br>
+                    <label>Full Name<span class="required">*</span> :</label>
+                    <p><input type="text" name="field1" class="name" placeholder="Your name" /></p>
+                    <label>Email<span class="required">*</span> :</label>
+                    <p><input type="email" class="email" placeholder="Your Email" /></p>
+                    <label>Date : </label>
+                    <p><select id="date">
+                        <option value="New York - 18/09/2016" selected>New York - 18/09/2016</option>
+                        <option value="Las Vegas - 12/10/2016">Las Vegas - 12/10/2016</option>
+                        <option value="Paris - 05/12/2016">Paris - 05/12/2016</option>
+                        <option value="London - 16/01/2017">London - 16/01/2017</option>
+                    </select></p>
+                    <label>Number of tickets :</label>
+                    <p><input type="number" placeholder="How much?" step="1" value="1" min="1" max="10"></p>
+                    <input class="btn" type="submit" name="Submit" value="Submit">
+                  </form>
+            </div>
+					</div>
+			</div>
+      </div>
+		</section>
+
+		<footer>
+        		<div id="aboutus">
+            		<div class="logofooter"><a href="index.html">WILD CIRCUS</a></div>
+                <p>More than just a circus, Wild Circus performers use theater, music, dance and modern circus arts to tell stories. The young circus artists will astonish you with their energy, emotion, enthusiasm and talent.</p>
+
+        		</div>
+
+
+        		<div id="social">
+        			<h3>Follow Us</h3>
+        			<div class="icons">
+        				<a class="facebook" href=""></a>
+    					<a class="twitter" href=""></a>
+    					<a class="instagram" href=""></a>
+    				</div>
+        		</div>
+
+
+        		<div id="adresse">
+        			<h3>Find Us</h3>
+        				<p>7000 Coliseum Way<br>
+                Oakland, CA 94621</p>
+        		</div>
+		</footer>
+	</body>
