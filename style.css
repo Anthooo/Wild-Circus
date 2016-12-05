@@ -20,7 +20,7 @@ section:before {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/images/bg.jpg) center center;
+    background: url(images/bg.jpg) center center;
     background-size: cover;
     opacity: .4;
 }
@@ -781,7 +781,7 @@ footer {
     position: fixed;
 }
   section:before {
-    background: url(/images/bg1.jpg);
+    background: url(images/bg1.jpg);
     height: 1825px;
   }
 }
