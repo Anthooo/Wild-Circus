@@ -517,15 +517,15 @@ footer {
 }
 
 .icons a.twitter { 
-	content: url(/images/icones/twitter.png); 
+	content: url(images/icones/twitter.png); 
 }
 
 .icons a.facebook { 
-	content: url(/images/icones/facebook.png); 
+	content: url(images/icones/facebook.png); 
 }
 
 .icons a.instagram { 
-	content: url(/images/icones/instagram.png); 
+	content: url(images/icones/instagram.png); 
 }
 
 #aboutus {
